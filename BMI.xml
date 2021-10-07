@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="100sp"
+        android:layout_height="30sp"
+        android:text="Váha"
+        android:layout_marginTop="70sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginStart="50sp"
+        android:gravity="center"
+        tools:ignore="HardcodedText"
+        />
+    <TextView
+        android:id="@+id/tv_vaha"
+        android:layout_width="55sp"
+        android:layout_height="30sp"
+        android:text="30"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginStart="300sp"
+        android:layout_marginLeft="300sp"
+        tools:ignore="HardcodedText"
+        />
+    <SeekBar
+        android:id="@+id/bar_vaha"
+        android:layout_width="250sp"
+        android:layout_height="30sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="100sp"
+        android:max="180"
+        android:min="30"
+        android:progress="0"
+        />
+
+
+
+
+
+    <TextView
+        android:layout_width="100sp"
+        android:layout_height="30sp"
+        android:text="Výška"
+        android:layout_marginTop="170sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginStart="50sp"
+        android:gravity="center"
+        tools:ignore="HardcodedText"
+        />
+    <TextView
+        android:id="@+id/tv_vyska"
+        android:layout_width="55sp"
+        android:layout_height="30sp"
+        android:text="100"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="200sp"
+        android:layout_marginStart="300sp"
+        android:layout_marginLeft="300sp"
+        tools:ignore="HardcodedText"
+        />
+    <SeekBar
+        android:id="@+id/bar_vyska"
+        android:layout_width="250sp"
+        android:layout_height="30sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="200sp"
+        android:max="220"
+        android:min="100"
+        android:progress="100"
+        />
+
+
+
+
+
+    <TextView
+        android:layout_width="60sp"
+        android:layout_height="30sp"
+        android:text="BMI:"
+        android:layout_marginTop="270sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginStart="50sp"
+        android:gravity="center"
+        tools:ignore="HardcodedText"
+        />
+    <TextView
+        android:id="@+id/tv_bmi"
+        android:layout_width="60sp"
+        android:layout_height="30sp"
+        android:text=""
+        android:layout_marginTop="270sp"
+        android:layout_marginLeft="110sp"
+        android:layout_marginStart="110sp"
+        android:gravity="center"
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/btn_vypocet"
+        android:layout_width="140sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="270sp"
+        android:layout_marginLeft="250sp"
+        android:layout_marginStart="250sp"
+        android:onClick="vypocetBMI"
+        android:text="Výpočet"
+        tools:ignore="HardcodedText"
+        />
+
+
+</RelativeLayout>
