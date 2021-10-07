@@ -1,4 +1,4 @@
-package com.example.petr;
+package com.example.prevod;
 
 import androidx.appcompat.app.AppCompatActivity;
 
