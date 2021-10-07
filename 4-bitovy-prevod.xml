@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="10 -> 2"
+        android:textColor="#0B0B0B"
+        android:textSize="20sp"
+        />
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="0dp"
+        android:min="0"
+        android:max="15"
+        />
+    <TextView
+        android:id="@+id/tvalue"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="350dp"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text=" "
+        android:textColor="#0B0B0B"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tprevod"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="170dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#0B0B0B"
+        android:textSize="20sp"
+        />
+</RelativeLayout>
